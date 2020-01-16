@@ -14,6 +14,7 @@ Use `apt-get install -y`
   __ghostscript__ __imagemagick__
 
   Also fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):
+  
     sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml
 
 * Matlab
