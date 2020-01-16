@@ -1,6 +1,10 @@
 # Singularity dependencies
 Dependency information for various tools/OS in singularity containers
 
+## FSL
+
+FSLeyes from versions prior to 6 cannot be made to work due to unresolvable conda dependencies in the installation step. FSLeyes 6 can be added to an FSL v5 container to permit use of FSL v5 for analysis and FSLeyes v6 for viewing/screenshots. An example is https://github.com/baxpr/bedpost-singularity .
+
 ## ubuntu:16.04
 
 Use `apt-get install -y`
