@@ -5,8 +5,7 @@ Dependency information for various tools/OS in singularity containers
 
 Use `apt-get install -y`
 
-* Basics
-
+* Basics  
   __wget__ __unzip__ __zip__ __xvfb__
 
 * ImageMagick, convert, montage  
@@ -14,8 +13,7 @@ Use `apt-get install -y`
   Also fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):  
   `sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml`
 
-* Matlab
-
+* Matlab  
   __openjdk-8-jre__
 
 
@@ -23,7 +21,6 @@ Use `apt-get install -y`
 
 Use `yum -y install`
 
-* Freesurfer, Freeview
-
+* Freesurfer, Freeview  
   __bc__ __libgomp__ __libicu__ __mesa-dri-drivers__ __mesa-libGLU__ __perl__ __tcsh__
 
