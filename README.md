@@ -9,13 +9,10 @@ Use `apt-get install -y`
 
   __wget__ __unzip__ __zip__ __xvfb__
 
-* ImageMagick, convert, montage
-
-  __ghostscript__ __imagemagick__
-
-  Also fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):
-  
-    `sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml`
+* ImageMagick, convert, montage  
+  __ghostscript__ __imagemagick__  
+  Also fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):  
+  `sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml`
 
 * Matlab
 
