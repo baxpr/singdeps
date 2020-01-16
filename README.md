@@ -19,6 +19,7 @@ Use `apt-get install -y`
 * X, xvfb  
   __xvfb__
 
+
 ## ubuntu:18.04
 
 Use `apt-get install -y`
@@ -38,6 +39,9 @@ Use `apt-get install -y`
   cd .. && rm -r pkgtemp
   ```
 
+* Basics  
+  __wget__ __unzip__ __zip__
+
 * Freesurfer, Freeview  
   (h/t https://github.com/MPIB/singularity-fsl)  
   __python-minimal__ __libgomp1__ __ca-certificates__
@@ -46,6 +50,15 @@ Use `apt-get install -y`
   __libxinerama1__ __libfreetype6__ __libxft2__ __libxrandr2__ __libmng2__  
   __libgtk2.0-0__ __libpulse0__ __libasound2__ __libcaca0__ __libopenblas-base__
   __bzip2__ __dc__ __bc__
+
+* ImageMagick, convert, montage  
+  __ghostscript__ __imagemagick__  
+  Also fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):  
+  `sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml`
+
+* X, xvfb  
+  __xvfb__
+
 
 ## centos:7.5.1804
 
