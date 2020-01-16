@@ -40,11 +40,11 @@ Use `apt-get install -y`
 
 * Freesurfer, Freeview  
   (h/t https://github.com/MPIB/singularity-fsl)  
-  __python-minimal__ __libgomp1__ __ca-certificates__  
+  __python-minimal__ __libgomp1__ __ca-certificates__
   __libglu1-mesa__ __libgl1-mesa-glx__ __libsm6__ __libice6__ __libxt6__  
-  __libjpeg-turbo8__ __libpng16-16__ __libxrender1__ __libxcursor1__  
+  __libjpeg-turbo8__ __libpng16-16__ __libxrender1__ __libxcursor1__
   __libxinerama1__ __libfreetype6__ __libxft2__ __libxrandr2__ __libmng2__  
-  __libgtk2.0-0__ __libpulse0__ __libasound2__ __libcaca0__ __libopenblas-base__  
+  __libgtk2.0-0__ __libpulse0__ __libasound2__ __libcaca0__ __libopenblas-base__
   __bzip2__ __dc__ __bc__
 
 ## centos:7.5.1804
@@ -58,7 +58,7 @@ Use `yum -y install`
   __bc__ __libgomp__ __libicu__ __mesa-dri-drivers__ __mesa-libGLU__ __perl__ __tcsh__
 
 * FSL  
-  __epel-release__ __openblas-devel__
+  __epel-release__ __openblas-devel__  
   https://fsl.fmrib.ox.ac.uk/fsldownloads/fsl-6.0.0-centos7_64.tar.gz
   
 * ImageMagick  
