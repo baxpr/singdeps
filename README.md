@@ -9,13 +9,12 @@ Use `apt-get install -y`
 
   __wget__ __unzip__ __zip__ __xvfb__
 
-* ImageMagick/convert/montage
+* ImageMagick, convert, montage
 
   __ghostscript__ __imagemagick__
 
-  Fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):
- 
-  `sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml`
+  Also fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):
+    sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml
 
 * Matlab
 
@@ -26,7 +25,7 @@ Use `apt-get install -y`
 
 Use `yum -y install`
 
-* Freesurfer and Freeview
+* Freesurfer, Freeview
 
   __bc__ __libgomp__ __libicu__ __mesa-dri-drivers__ __mesa-libGLU__ __perl__ __tcsh__
 
