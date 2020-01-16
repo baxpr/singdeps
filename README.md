@@ -26,6 +26,7 @@ Use `apt-get install -y`
 * Workaround for filename case collision in linux-libc-dev  
   https://stackoverflow.com/questions/15599592/compiling-linux-kernel-error-xt-connmark-h  
   https://superuser.com/questions/1238903/cant-install-linux-libc-dev-in-ubuntu-on-windows  
+ ```
     apt-get install -y binutils xz-utils 
     mkdir pkgtemp && cd pkgtemp
     apt-get download linux-libc-dev
@@ -35,6 +36,7 @@ Use `apt-get install -y`
     ar rcs linux-libc-dev*.deb debian-binary control.tar.xz data.tar.xz
     dpkg -i linux-libc-dev*.deb
     cd .. && rm -r pkgtemp
+```
 
 * Freesurfer, Freeview  
   h/t https://github.com/MPIB/singularity-fsl
