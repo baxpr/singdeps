@@ -5,13 +5,13 @@ Dependency information for various tools/OS in singularity containers
 
 Use `apt-get install -y`
 
-* Basics: __wget__ __unzip__ __zip__ __xvfb__
+* Basics
+
+  __wget__ __unzip__ __zip__ __xvfb__
 
 * ImageMagick/convert/montage
 
-  __ghostscript__
-
-  __imagemagick__
+  __ghostscript__ __imagemagick__
 
   Fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):
  
@@ -28,11 +28,5 @@ Use `yum -y install`
 
 * Freesurfer and Freeview
 
-  __tcsh__
-  __bc__
-  __mesa-libGLU__
-  __libgomp__
-  __perl__
-  __mesa-dri-drivers__
-  __libicu__
+  __bc__ __libgomp__ __libicu__ __mesa-dri-drivers__ __mesa-libGLU__ __perl__ __tcsh__
 
