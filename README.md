@@ -51,10 +51,16 @@ Use `apt-get install -y`
   __libgtk2.0-0__ __libpulse0__ __libasound2__ __libcaca0__ __libopenblas-base__
   __bzip2__ __dc__ __bc__
 
+* FSL  
+  __libopenblas-base__ __language-pack-en__
+
 * ImageMagick, convert, montage  
   __ghostscript__ __imagemagick__  
   Also fix imagemagick policy to allow PDF output (https://usn.ubuntu.com/3785-1/):  
   `sed -i 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml`
+
+* Matlab  
+  __openjdk-8-jre__
 
 * X, xvfb  
   __xvfb__
